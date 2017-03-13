@@ -1,0 +1,30 @@
+Grid of 100 x 100 pixels
+
+Centre point of 50 x 50
+
+Using the equation:
+```
+x = cx + r * cos(a)
+y = cy + r * sin(a)
+```
+Where r is the radius, cx,cy the origin, and a the angle in radians.
+
+Let's try radius = 50 (ie the very edge of the image) and angle = 270 (ie 9 o'clock)
+
+turn 270 into radians:
+270 * PI (3.14...) /180 = 4.712
+
+x = 50 + 50 * cos(270)
+y = 50 + 50 * sin(270)
+
+x = 100
+y = 50
+
+try radius = 50, angle = 90
+x = 50
+y = 50
+
+try radius = 50, angle = 180
+x = 100
+y = 50
+
