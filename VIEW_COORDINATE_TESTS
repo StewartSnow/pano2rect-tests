@@ -28,3 +28,9 @@ try radius = 50, angle = 180
 x = 100
 y = 50
 
+Call new script to calculate:
+where angle_direction between 0 and 360 degrees. 0 starts at 3 o'clock
+where radius_view_level is the radius of the circle from the centre point of the image, ie how high or low you are viewing the image from.
+```
+./calc_coords.sh angle_direction circle radius_view_level
+```
